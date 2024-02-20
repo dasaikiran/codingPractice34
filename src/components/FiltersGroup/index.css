@@ -1,0 +1,115 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 10px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.rating-stars-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.category-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+
+.rating-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  padding-left: 0px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  color: #64748b;
+  cursor: pointer;
+}
+.active-category {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  color: #0967d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+.rating-image {
+  width: 120px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.category-heading {
+  margin: 0px;
+  font-weight: bold;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.rating-heading {
+  margin: 0px;
+  font-weight: bold;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.rating-para {
+  color: #64748b;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e9ecf0;
+}
+.search-input {
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.search-icon {
+  cursor: pointer;
+}
